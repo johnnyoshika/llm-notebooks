@@ -15,3 +15,7 @@ Environment:
 2. Activate virtualenv: `.\venv\Scripts\activate` (Windows), `source venv/bin/activate` (Linux)
 3. Install packages from requirements.txt: `pip install -r requirements.txt`
 4. Copy `.env.example` to `.env` and populate variables
+
+## Run
+
+Run Jupyter Notebook in VS Code using virtualenv, be sure to select the right Python Interpreter and Notebook Kernel. In Windows, select env\Scripts\python.exe
