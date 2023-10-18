@@ -1,5 +1,6 @@
 /.env
 /venv
 /chroma
+/service-account.json
 .ipynb_checkpoints
 .DS_Store

@@ -16,6 +16,12 @@ Environment:
 3. Install packages from requirements.txt: `pip install -r requirements.txt`
 4. Copy `.env.example` to `.env` and populate variables
 
+### Vertex AI
+
+1. Enable `Vertex AI API` in Google Cloud Console
+2. Create a service account with `Vertex AI User` role
+3. Download service account key and save as `service-account.json` in root of this project
+
 ## Run
 
 Run Jupyter Notebook in VS Code using virtualenv, be sure to select the right Python Interpreter and Notebook Kernel. In Windows, select env\Scripts\python.exe
