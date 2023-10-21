@@ -42,7 +42,9 @@ grpc-google-iam-v1==0.12.6
 grpcio==1.59.0
 grpcio-status==1.59.0
 h11==0.14.0
+httpcore==0.18.0
 httptools==0.6.1
+httpx==0.25.0
 huggingface-hub==0.17.3
 humanfriendly==10.0
 idna==3.4
@@ -93,6 +95,7 @@ pywin32==306
 PyYAML==6.0.1
 pyzmq==25.1.1
 regex==2023.10.3
+replicate==0.15.4
 requests==2.31.0
 rsa==4.9
 safetensors==0.4.0
