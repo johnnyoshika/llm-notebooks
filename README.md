@@ -28,7 +28,7 @@ Run Jupyter Notebook in VS Code using virtualenv, be sure to select the right Py
 
 ## Sniff HTTP Requests
 
-To sniff HTTP requests in Fiddler, we need to get http requests in Python to use the Windows Certificate Store. Installing the [pip_system_certs](https://pypi.org/project/pip-system-certs/) package does just that:
+To sniff HTTP requests in Fiddler or Proxyman, we need to get http requests in Python to use the Windows Certificate Store. Installing the [pip_system_certs](https://pypi.org/project/pip-system-certs/) package does just that:
 
 ```
 pip install pip_system_certs
@@ -36,7 +36,9 @@ pip install pip_system_certs
 
 This package is already listed in requirements.txt
 
-Open Fiddler, enable `Capturing`, and requests (even the ones running in Jupyter Notebook) will appear in Fiddler.
+Open Fiddler, enable `Capturing`, and requests/responses (even the ones running in Jupyter Notebook) will appear.
+
+Open Proxyman, add `api.openai.com` domain to intercept HTTPS traffic and requests/responses will appear.
 
 ### pip_system_certs
 
