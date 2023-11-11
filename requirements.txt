@@ -83,7 +83,7 @@ pulsar-client==3.3.0
 pure-eval==0.2.2
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
-pydantic==2.4.2
+pydantic==1.10.8
 pydantic_core==2.10.1
 Pygments==2.16.1
 pypdf==3.16.4
