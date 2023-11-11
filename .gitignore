@@ -1,5 +1,6 @@
 /.env
 /venv
+/certs
 /chroma
 /service-account.json
 .ipynb_checkpoints

@@ -25,3 +25,29 @@ Environment:
 ## Run
 
 Run Jupyter Notebook in VS Code using virtualenv, be sure to select the right Python Interpreter and Notebook Kernel. In Windows, select env\Scripts\python.exe
+
+## Sniff HTTP Requests
+
+### Windows
+
+Use [2. Old Solution (Not recommended)](https://docs.proxyman.io/debug-devices/python#2.-old-solution-not-recommended).
+
+1. Download cert from Proxyman: Certificate -> Export -> Root Certificate as PEM...
+2. Save that file to certs folder
+3. Inside venv: `python proxyman.py add`
+4. Paste relative path to cert file
+
+To disable proxyman proxy:
+
+1. Inside venv: `python proxyman.py remove`
+
+### Mac
+
+Use [1. New Automatic Solution (v4.7.0 or later)](https://docs.proxyman.io/debug-devices/python#1.-new-automatic-solution-v4.7.0-or-later).
+
+When new Terminal launches, open vscode from there:
+
+```
+cd projects/llm-notebooks
+code .
+```
